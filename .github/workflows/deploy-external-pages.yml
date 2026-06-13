@@ -1,0 +1,31 @@
+# Optional: deploy built site to personal Pages when org secret is configured.
+# Org → Settings → Secrets → PERSONAL_GITHUB_TOKEN (PAT with repo write on MusfiqurTuhin/odoo_wiki_metamorphosis)
+
+name: Deploy to personal Pages
+
+on:
+  workflow_run:
+    workflows: [Build wiki]
+    types: [completed]
+    branches: [main]
+
+jobs:
+  deploy:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      vars.ENABLE_PERSONAL_PAGES_DEPLOY == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: mkdocs-site
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Publish to MusfiqurTuhin/odoo_wiki_metamorphosis gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          external_repository: MusfiqurTuhin/odoo_wiki_metamorphosis
+          publish_branch: gh-pages
+          publish_dir: .

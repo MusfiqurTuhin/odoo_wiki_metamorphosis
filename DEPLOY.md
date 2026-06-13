@@ -1,39 +1,50 @@
 # Deploying the wiki
 
-## GitHub repo
+## Architecture (best practice)
 
-https://github.com/metamorphosisbd/odoo_wiki_metamorphosis
+| Role | Repository | URL |
+|------|------------|-----|
+| **Source of truth** (team edits) | [metamorphosisbd/odoo_wiki_metamorphosis](https://github.com/metamorphosisbd/odoo_wiki_metamorphosis) | Private org repo |
+| **Public site** (GitHub Pages) | [MusfiqurTuhin/odoo_wiki_metamorphosis](https://github.com/MusfiqurTuhin/odoo_wiki_metamorphosis) | https://musfiqurtuhin.github.io/odoo_wiki_metamorphosis/ |
 
-## GitHub Pages (recommended when available)
+Edit links in the wiki point to the **org repo**. The personal repo is a public mirror for hosting only.
 
-The org plan must support **GitHub Pages** for this repository.
-
-1. Repo → **Settings** → **Pages** → Source: **GitHub Actions**
-2. Re-enable deploy job in `.github/workflows/wiki-deploy.yml` (template below) or upgrade org plan
-3. Site URL: `https://metamorphosisbd.github.io/odoo_wiki_metamorphosis/`
-
-Current status: Pages API returns *plan does not support GitHub Pages* — CI builds the site and uploads `mkdocs-site` artifact instead.
-
-## Local preview
+## After making changes
 
 ```bash
-pip install -r requirements.txt
-python scripts/generate_wiki.py
-mkdocs serve
+./scripts/push_all.sh
 ```
 
-## Internal server (nginx)
+Or manually:
+
+```bash
+git push origin main    # org — canonical
+git push pages main     # personal — triggers Pages deploy
+```
+
+## Git remotes
+
+```bash
+git remote -v
+# origin → metamorphosisbd/odoo_wiki_metamorphosis
+# pages  → MusfiqurTuhin/odoo_wiki_metamorphosis
+```
+
+## CI
+
+| Repo | Workflow | Purpose |
+|------|----------|---------|
+| Org | `wiki.yml` | Build + upload artifact (no Pages on org plan) |
+| Personal | `pages.yml` | Build + deploy GitHub Pages |
+
+## Optional: auto-deploy from org only
+
+Add org secret `PERSONAL_GITHUB_TOKEN` (fine-grained PAT with write access to `MusfiqurTuhin/odoo_wiki_metamorphosis`). Then enable `.github/workflows/deploy-external-pages.yml` on the org repo so a single `git push origin main` updates the live site.
+
+## Internal server alternative
 
 ```bash
 python scripts/generate_wiki.py
 mkdocs build
-rsync -av site/ user@wiki.internal:/var/www/odoo-wiki/
+# rsync site/ to nginx
 ```
-
-## Download CI artifact
-
-After each push to `main`, download **mkdocs-site** from the [Actions](https://github.com/metamorphosisbd/odoo_wiki_metamorphosis/actions) run and host the `site/` folder on any static file server.
-
-## When Pages is enabled
-
-Uncomment and use `wiki-deploy.yml` or merge deploy steps back into `wiki.yml` with `actions/deploy-pages@v4`.
