@@ -1,0 +1,29 @@
+slug: meta_payment_sslcommerz
+display_name: "Meta Payment Sslcommerz"
+status: active
+brief: >
+  Odoo custom addons for Meta Payment Sslcommerz. 1 modules in scan
+  (1 meta_*). Update this brief with project scope and delivery notes.
+odoo_version: "19.0"
+hosting: TBD
+
+client:
+  name: "Meta Payment Sslcommerz"
+  legal_name: ""
+  industry: TBD
+  country: Bangladesh
+  website: ""
+  contacts: []
+
+git:
+  remote_url: ""
+  default_branch: main
+  root_path: meta_payment_sslcommerz/
+
+team: []
+
+modules:
+  - meta_payment_sslcommerz
+
+tags:
+  - auto-generated

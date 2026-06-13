@@ -1,0 +1,122 @@
+      slug: cwpl_custom_15ee
+      display_name: "Cwpl Custom 15Ee"
+      status: active
+      brief: >
+        Odoo custom addons for Cwpl Custom 15Ee. 94 modules in scan
+        (77 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "15.0"
+      hosting: TBD
+
+      client:
+        name: "Cwpl Custom 15Ee"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: cwpl_custom_15ee/
+
+      team: []
+
+      modules:
+        - bi_print_journal_entries
+- customer_supplier_approval
+- dev_purchase_down_payment
+- disable_form_quick_edit
+- jb_hide_edit_in_view
+- mass_cancel_journal_entries
+- meta_advance_bill_confirm_specific_user
+- meta_approval_matrix_cross_world
+- meta_batch_gen_structure
+- meta_bill_payment_processing
+- meta_budget_product_costing_sales
+- meta_check_number_in_payment
+- meta_check_number_showing_in_journal_item
+- meta_cheque_management
+- meta_cnf_commission_invoice
+- meta_cost_center_on_valuation_journal
+- meta_create_bill_and_approval_expense
+- meta_crm_so_extra
+- meta_cs_line_sequence
+- meta_custom_bill_view
+- meta_custom_field_name_search
+- meta_cwpl_acc_asset
+- meta_cwpl_adv_employee
+- meta_cwpl_advance_manual_journal
+- meta_cwpl_data_tracker
+- meta_cwpl_do_report
+- meta_cwpl_inv_fix_discount
+- meta_cwpl_lead_extra
+- meta_cwpl_po_receipt
+- meta_cwpl_po_report
+- meta_cwpl_poso_payment_terms
+- meta_cwpl_product_extra
+- meta_cwpl_register_payment
+- meta_cwpl_repair_extra
+- meta_cwpl_res_extra
+- meta_default_journal_blank_reg_pmnt
+- meta_do_extra_form_approval
+- meta_easy_way_create_and_view
+- meta_employee_loan_details
+- meta_hasan_rubber_po_request_tender
+- meta_internal_transfer_approval
+- meta_inventory_movement_report
+- meta_inventory_report_by_categories
+- meta_inventory_valuation_categories_account
+- meta_invoice_advance_status
+- meta_invoice_send_to_draft
+- meta_landed_cost_lc_analytic_acc
+- meta_landed_cost_po_lc_number
+- meta_manufacturing_stock_availability
+- meta_outstanding_bill_report
+- meta_payment_reconcile_confirm
+- meta_payroll_cutomization
+- meta_payroll_field
+- meta_payroll_report_customization
+- meta_payslip_report
+- meta_po_view_customization
+- meta_pr_changes_message
+- meta_pr_line_sequence
+- meta_pr_select_in_stock_picking
+- meta_product_cost_readonly
+- meta_product_moves_link_reference
+- meta_project_site_do
+- meta_purchase_comparison_report
+- meta_purchase_comparison_system
+- meta_purchase_deliver_to_select
+- meta_purchase_line_analytic_acc_id
+- meta_purchase_request_report
+- meta_receipt_validate_by_location_user
+- meta_reconcile_search_domain
+- meta_repair_to_create_pr
+- meta_route_required
+- meta_salary_report
+- meta_salary_report_pdf
+- meta_sale_distribution
+- meta_sale_order_bom_customization
+- meta_sale_transfer_by_bom
+- meta_sales_return
+- meta_sol_bdt_price
+- meta_sticky_header_list_view
+- meta_testing_purpose
+- meta_transfer_commissioning_date
+- meta_vendor_bill_advance_status
+- meta_vtech_service_product_received_done
+- numbering_list_tss
+- order_line_sequences
+- purchase_down_payment
+- purchase_request
+- report_xlsx
+- sale_discount_total
+- sale_order_line_sequence
+- stock_no_negative
+- stock_quantity_history_location
+- vendor_purchase_discount
+- web_search_with_and
+
+      tags:
+        - auto-generated

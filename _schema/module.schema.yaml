@@ -1,0 +1,66 @@
+# JSON Schema for module front-matter (embedded in .md or module.yaml)
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Module
+type: object
+required:
+  - technical_name
+  - display_name
+  - project_slug
+  - git
+  - contributors
+  - versions
+properties:
+  technical_name:
+    type: string
+    description: Directory name / Odoo module technical name
+  display_name:
+    type: string
+  project_slug:
+    type: string
+  reusable:
+    type: boolean
+    default: false
+  marketing_summary:
+    type: string
+    description: Plain-language pitch for non-developers
+  odoo_version:
+    type: string
+  category:
+    type: string
+  git:
+    type: object
+    required: [path]
+    properties:
+      repo_url: { type: string, format: uri }
+      path: { type: string }
+      branch: { type: string }
+  contributors:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [name, role]
+      properties:
+        name: { type: string }
+        role: { enum: [author, maintainer, reviewer] }
+        email: { type: string }
+  depends:
+    type: array
+    items: { type: string }
+  used_in:
+    type: array
+    description: Other project slugs where this module is deployed
+    items: { type: string }
+  versions:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [version, date, whats_new]
+      properties:
+        version: { type: string }
+        date: { type: string, format: date }
+        odoo_version: { type: string }
+        whats_new: { type: string }
+        git_tag: { type: string }
+        contributors: { type: array, items: { type: string } }

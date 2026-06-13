@@ -1,0 +1,156 @@
+      slug: idiya_17_sh
+      display_name: "Idiya"
+      status: active
+      brief: >
+        Odoo custom addons for Idiya. 128 modules in scan
+        (92 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Idiya"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: idiya_17_sh/
+
+      team: []
+
+      modules:
+        - auto_sale_email
+- base_import_helper
+- d_auth_oauth_advance
+- d_auth_oauth_tiktok
+- deltatech_stock_negative
+- emipro_theme_base
+- facebook_shop
+- klaviyo_odoo_integration
+- marketplace_connector
+- meta_SO_status_field
+- meta_auto_tax_sale_lines
+- meta_brevo_integration
+- meta_bulk_website_category_changer
+- meta_click_collect_all_date_visible
+- meta_clicksend_sms_integration
+- meta_container_automation
+- meta_ctx_website_search_history
+- meta_custom_delivery_day_picker
+- meta_custom_importer
+- meta_data_transfer
+- meta_delivery_carrier_area_code
+- meta_delivery_mobile_api
+- meta_delivery_planning_report
+- meta_delivery_product_rule
+- meta_desc_invisible
+- meta_distributor_management
+- meta_dynamic_add_to_cart
+- meta_extra_shipping_cost_add
+- meta_floating_side_button
+- meta_free_delivery_by_product_cat
+- meta_helpdesk_mod
+- meta_helpdesk_sale_link
+- meta_idiya_product_kpi
+- meta_idiya_report_customization
+- meta_idiya_seo_mods
+- meta_idiya_website_stock_availability
+- meta_ikea_products
+- meta_ikea_scrap
+- meta_instock_filter
+- meta_inventory_valuation_categories_account
+- meta_location_wise_filter
+- meta_mainfreight_api
+- meta_many2many_tags_link
+- meta_many2one_color
+- meta_marketing_automation_template_view
+- meta_marketplace_stock_sync
+- meta_mobile_view_cart_show
+- meta_not_matching_area_codes_are
+- meta_notify_button
+- meta_nz_post_api
+- meta_optima_delivery_field_service
+- meta_optimized_delivery_planning
+- meta_order_location_conversations
+- meta_order_status
+- meta_order_status_with_mail
+- meta_orderstatus_related
+- meta_payment_block
+- meta_payment_transaction_email
+- meta_preorder_wholesale_management
+- meta_price_comparison_scraper
+- meta_price_history_for_product
+- meta_product_dimensions
+- meta_product_faq
+- meta_product_publish_constrains
+- meta_product_purchase_extension
+- meta_product_stock_warehouse_website
+- meta_product_tag_link
+- meta_product_update_volume_bom
+- meta_purchase_container_volume
+- meta_purchase_sales
+- meta_quotation_notification
+- meta_sale_acq_name
+- meta_sale_complete_button
+- meta_sale_coupon_restriction
+- meta_sale_email
+- meta_sale_marketplace_list
+- meta_sale_mixed_widget
+- meta_sale_order_register_payment
+- meta_sale_report
+- meta_sale_warehouse
+- meta_same_categ_products
+- meta_same_tag_related_products
+- meta_search_partner_with_phone
+- meta_so_bulk_cancel
+- meta_so_comment_ticket
+- meta_stock_clearence_suggestion
+- meta_stock_update_restriction
+- meta_ui_ux_fixing
+- meta_volume_get
+- meta_warehouse_product_summary
+- meta_web_blog_post_field_editable
+- meta_web_phone_validation
+- meta_web_single_product_info
+- meta_website_header_banner
+- meta_website_image_360_idiya
+- meta_website_product_name_tooltip
+- meta_website_sale_phonevalidation
+- meta_website_sale_pricelist
+- meta_website_sale_product_qrcode
+- meta_website_shipping_calculator
+- meta_website_visitor_sale
+- new_fields_addition
+- odoo_woo_connect
+- payment_afterpay
+- payment_click
+- payment_gem
+- payment_laybuy
+- payment_zip
+- pos_vcloud
+- product_data_feed
+- product_data_feed_brand
+- product_data_feed_number
+- product_facebook_category
+- product_google_category
+- query_deluxe
+- s2u_online_appointment
+- sale_coupon_only_new_customer
+- sh_shop_order_note
+- theme_clarico_vega
+- website_cookies_consent
+- website_cookies_consent_google
+- website_facebook_pixel
+- website_google_analytics_4
+- website_product_size_chart
+- website_sale_google_analytics_4
+- website_sale_recommended_product
+- website_sale_seo
+- website_tiktok_pixel
+
+      tags:
+        - auto-generated

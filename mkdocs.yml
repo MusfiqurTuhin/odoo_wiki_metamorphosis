@@ -1,0 +1,82 @@
+site_name: Metamorphosis Module Wiki
+site_description: Project and Odoo custom module inventory for delivery, reuse, and marketing
+site_url: https://metamorphosisbd.github.io/odoo_wiki_metamorphosis/
+repo_url: https://github.com/metamorphosisbd/odoo_wiki_metamorphosis
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - How to Contribute: contributing.md
+  - Projects:
+      - Overview: projects/index.md
+      - "Basb": projects/basb/index.md
+      - "Precisiontex": projects/precisiontex-v19-custom/index.md
+      - "Friendship NGO": projects/friendship_ngo_sh/index.md
+      - "Premier 1888": projects/premier1888_odoo17/index.md
+      - "Idiya": projects/idiya_17_sh/index.md
+      - "Hrms Addons": projects/hrms-addons/index.md
+      - "Nice Software": projects/nice_software/index.md
+      - "Baatighar": projects/baatighar_17_ee/index.md
+      - "Jamuna Classic Paint": projects/jamuna_classic_paint/index.md
+      - "Cwpl Custom 15Ee": projects/cwpl_custom_15ee/index.md
+      - "GDFL": projects/gdfl_v18_sh/index.md
+      - "Odoo16 Custom Addons": projects/odoo16-custom-addons/index.md
+      - "Adarsha Publication": projects/adarsha_publication/index.md
+      - "Gronthik Publication": projects/gronthik_publication/index.md
+      - "Shanta Life Style": projects/shanta_life_style_17/index.md
+      - "Organik Chicken": projects/organik-chicken/index.md
+      - "HAJ ERP": projects/haj_erp_custom/index.md
+      - "Mm Project": projects/mm_project/index.md
+      - "Agile Minds": projects/agile_minds_odoosh/index.md
+      - "Verity One": projects/verity_one/index.md
+      - "Curepoint": projects/curepoint/index.md
+      - "Odoo18 Theme": projects/odoo18_theme/index.md
+      - "Curepoint BD": projects/curepointbd_custom/index.md
+      - "Pathak Samabesh": projects/pathak-samabesh/index.md
+      - "SMET": projects/smet-odoo-sh/index.md
+      - "Odoo17 Custom": projects/odoo17_custom/index.md
+      - "Colorjet": projects/colorjet/index.md
+      - "Tree Living": projects/tree_living_custom/index.md
+      - "Odoo18 Custom": projects/odoo18_custom/index.md
+      - "Tetra Pvt": projects/tetra_pvt_custom/index.md
+      - "Odoo19 Custom Barikoi Maps": projects/odoo19_custom_barikoi_maps/index.md
+      - "Odoo19 Custom": projects/odoo19_custom/index.md
+      - "Disabled Modules (Archive)": projects/DISABLED_MODULES/index.md
+      - "Biriyani Mahal": projects/biriyani-mahal_custom/index.md
+      - "Cwpl Custom 18Ee": projects/cwpl_custom_18ee/index.md
+      - "Odoo15 Custom": projects/odoo15_custom/index.md
+      - "Meta Payment Sslcommerz": projects/meta_payment_sslcommerz/index.md
+      - "Odoo18Ce Custom Crm": projects/odoo18ce_custom_crm/index.md
+  - Modules:
+      - Reusable Catalog: modules/catalog.md
+      - Cross-Project Matrix: modules/reuse-matrix.md
+  - Schema Reference: schema.md
+  - Requirements: requirements.md

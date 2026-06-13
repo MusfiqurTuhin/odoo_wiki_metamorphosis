@@ -1,0 +1,63 @@
+      slug: agile_minds_odoosh
+      display_name: "Agile Minds"
+      status: active
+      brief: >
+        Odoo custom addons for Agile Minds. 35 modules in scan
+        (26 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Agile Minds"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: agile_minds_odoosh/
+
+      team: []
+
+      modules:
+        - bi_pos_stock
+- deltatech_stock_negative
+- hide_menu_user
+- membership_extension
+- meta_account_employee_access
+- meta_agile_custom_sales_report
+- meta_agile_custom_summary_report
+- meta_agile_pos_override
+- meta_agile_pos_receipt_customization
+- meta_agile_stock_customization
+- meta_analytic_distribution_forall
+- meta_custom_inventory_report
+- meta_custom_purchase_report
+- meta_customer_bulk_upload
+- meta_membership_pos_sms
+- meta_membership_reporting
+- meta_membership_sms
+- meta_picking_employee_access
+- meta_po_employee_access
+- meta_pos_credit_sms_notification
+- meta_pos_discount
+- meta_pos_employee_access
+- meta_pos_membership
+- meta_pos_multiple_barcodes
+- meta_pos_partner_credit_sale
+- meta_purchase_order_customization
+- meta_purchase_summary_report
+- meta_sms_integration
+- meta_so_employee_access
+- meta_transfer_line_bulk
+- pos_analytic_tag
+- pos_print_order_kitchen_browser
+- product_multiple_barcodes
+- purchase_request
+- stock_no_negative
+
+      tags:
+        - auto-generated

@@ -1,0 +1,65 @@
+      slug: haj_erp_custom
+      display_name: "HAJ ERP"
+      status: active
+      brief: >
+        Odoo custom addons for HAJ ERP. 37 modules in scan
+        (27 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "19.0"
+      hosting: TBD
+
+      client:
+        name: "HAJ ERP"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: haj_erp_custom/
+
+      team: []
+
+      modules:
+        - crm_dashboard
+- deltatech_merge
+- deltatech_merge_product
+- droggol_theme_common
+- eg_cheque_number_on_payment
+- eg_sale_global_discount
+- hide_menu_user
+- meta_account_invoice_tax
+- meta_accounting_approval
+- meta_amount2word
+- meta_cash_book
+- meta_copy_sale_data
+- meta_crm_fields
+- meta_employee_customize
+- meta_employee_wise_approval
+- meta_expense_custom
+- meta_haj_custom
+- meta_haj_dashboard
+- meta_haj_dashboard_md
+- meta_haj_fields
+- meta_haj_invoice
+- meta_helpdesk_customize
+- meta_ledger_report
+- meta_poweredby
+- meta_product_brand
+- meta_project_report
+- meta_purchase_fields
+- meta_purchase_request
+- meta_sale_order_analytic_distribution
+- meta_sale_order_tax
+- meta_sale_quotation_approvals
+- meta_survey_doc
+- meta_tender_approvals
+- meta_tender_doc
+- purchase_request
+- report_attachment_preview
+- theme_prime
+
+      tags:
+        - auto-generated

@@ -1,0 +1,29 @@
+slug: odoo18ce_custom_crm
+display_name: "Odoo18Ce Custom Crm"
+status: active
+brief: >
+  Odoo custom addons for Odoo18Ce Custom Crm. 1 modules in scan
+  (0 meta_*). Update this brief with project scope and delivery notes.
+odoo_version: "18.0"
+hosting: TBD
+
+client:
+  name: "Odoo18Ce Custom Crm"
+  legal_name: ""
+  industry: TBD
+  country: Bangladesh
+  website: ""
+  contacts: []
+
+git:
+  remote_url: ""
+  default_branch: main
+  root_path: odoo18ce_custom_crm/
+
+team: []
+
+modules:
+  - odoo_crm_api
+
+tags:
+  - auto-generated

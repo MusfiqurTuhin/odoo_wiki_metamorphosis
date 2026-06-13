@@ -1,0 +1,70 @@
+      slug: shanta_life_style_17
+      display_name: "Shanta Life Style"
+      status: active
+      brief: >
+        Odoo custom addons for Shanta Life Style. 42 modules in scan
+        (27 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Shanta Life Style"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: shanta_life_style_17/
+
+      team: []
+
+      modules:
+        - crm_dashboard
+- customer_journey
+- documents_spreadsheet
+- meta_access_restriction
+- meta_add_field_pivot_report
+- meta_age_group
+- meta_amount2word-17
+- meta_architect_commission
+- meta_auto_lot_purchase
+- meta_birthday_email
+- meta_closing_and_birthdate
+- meta_crm_report
+- meta_customer_visit
+- meta_delivery_slip_report_changes
+- meta_dynamic_terms_condition
+- meta_gate_pass
+- meta_invoice_report_changes
+- meta_money_receipt_report
+- meta_product_cost_readonly
+- meta_product_custom_fields
+- meta_product_tab_organize
+- meta_productlabel_code93
+- meta_productlabel_code93_38x25
+- meta_purchase_container_volume
+- meta_quotation_report_changes_ruh
+- meta_reports
+- meta_sku
+- meta_so_product_view
+- meta_survey_report
+- meta_volume_compare
+- om_account_accountant
+- om_account_daily_reports
+- om_account_followup
+- om_recurring_payments
+- purchase_request
+- pw_product_discount_limit
+- report_qweb_pdf_watermark
+- spreadsheet_dashboard_crm
+- spreadsheet_dashboard_documents
+- spreadsheet_dashboard_edition
+- spreadsheet_edition
+- web_gantt
+
+      tags:
+        - auto-generated

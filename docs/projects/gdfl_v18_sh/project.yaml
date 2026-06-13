@@ -1,0 +1,93 @@
+      slug: gdfl_v18_sh
+      display_name: "GDFL"
+      status: active
+      brief: >
+        Odoo custom addons for GDFL. 65 modules in scan
+        (48 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "GDFL"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: gdfl_v18_sh/
+
+      team: []
+
+      modules:
+        - account_cash_flow_indirect
+- bi_print_journal_entries
+- bi_stock_rotation_report
+- dev_payslip_cancel
+- eq_inventory_valuation_report
+- hr_gratuity
+- hr_travel_history
+- investment_management
+- mass_cancel_journal_entries
+- meta_accounting_customization
+- meta_accounting_report_customization
+- meta_approval_dashboard
+- meta_batch_no
+- meta_bill_of_materials_changes
+- meta_custom_access_rights
+- meta_custom_invoice_print
+- meta_custom_purchase_report
+- meta_customer_in_product_moves
+- meta_danon_purchase_pr_line_not_changeable
+- meta_delivery_ref_aml
+- meta_discount_product_name_journal
+- meta_fixed_asset_po
+- meta_free_product_price
+- meta_helpdesk_customization_gd
+- meta_hr_employee_joining_date
+- meta_hr_payroll_report
+- meta_inventory_location_report
+- meta_inventory_valuation_categories_account
+- meta_inventory_valuation_report
+- meta_manufacture_unit_cost
+- meta_material_requisition
+- meta_mrp_consumption_report
+- meta_mrp_multi_level_consumption
+- meta_mrp_variance_reports
+- meta_mushok_invoice
+- meta_odoo_recibo_sfa_integration
+- meta_payroll_cutomization
+- meta_payroll_field
+- meta_payroll_register
+- meta_po_ref_in_journal_label
+- meta_portal_payslip_download
+- meta_product_aging_days
+- meta_product_closing_stock_report
+- meta_promotion_add
+- meta_purchase_order_change
+- meta_purchase_request_change
+- meta_purchase_restriction
+- meta_quality_check_customization
+- meta_quality_control_customization
+- meta_quality_graph
+- meta_raw_milk_order
+- meta_salary_report
+- meta_sale_loyalty_auto_reward
+- meta_stock_aging_days
+- meta_vendor_name_get
+- meta_view_and_report_customization
+- meta_warehouse_transfer_validate_approval
+- mrp_production_byproduct_cost_share
+- purchase_request
+- report_xlsx
+- sh_journal_reset
+- smart_replenishment
+- stock_location_valuation_report
+- stock_no_negative
+- update_order_picking_force
+
+      tags:
+        - auto-generated

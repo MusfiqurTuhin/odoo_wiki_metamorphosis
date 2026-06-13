@@ -1,0 +1,134 @@
+      slug: nice_software
+      display_name: "Nice Software"
+      status: active
+      brief: >
+        Odoo custom addons for Nice Software. 106 modules in scan
+        (52 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "16.0"
+      hosting: TBD
+
+      client:
+        name: "Nice Software"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: nice_software/
+
+      team: []
+
+      modules:
+        - account_partner_ledger_filter
+- account_payment_approval
+- account_reports
+- advance_cash_flow_statements
+- app_common
+- app_odoo_customize
+- base_account_budget
+- base_accounting_kit
+- bi_subtask
+- bi_website_support_ticket
+- company_logo_kot_receipt
+- dynamic_accounts_report
+- employee_purchase_requisition
+- export_view_pdf
+- export_with_selection_title
+- extend_tax_report
+- heritage_purchase_request_unit_cost
+- heritage_st_field_extend
+- heritage_st_transit_location
+- hide_manage_database
+- hide_powered_by_odoo
+- hr_contract_types
+- hr_organizational_chart
+- hr_payroll_community
+- inventory_advanced_reports
+- ksc_auto_invoice
+- laundry_management
+- legion_enterprise_theme
+- legion_hide_odoo
+- mass_cancel_journal_entries
+- meta_account_payble_bill_report
+- meta_account_tree_view_hierchy
+- meta_age_group
+- meta_analytic_cost_center
+- meta_asset_depreciation_report
+- meta_asset_management
+- meta_balance_sheet_report
+- meta_chatter_bottom
+- meta_closing_and_birthdate
+- meta_cover_letter
+- meta_customer_visit
+- meta_disable_view_creation
+- meta_ex_work
+- meta_expense_acc_in_journal
+- meta_fleet_custo
+- meta_global_cost_center
+- meta_hide_menu_and_product_price_user
+- meta_hr_data
+- meta_internal_transfer_acc
+- meta_inventory_chart
+- meta_inventory_consumption_menu(latest)
+- meta_inventory_group
+- meta_inventory_transfer_onhand
+- meta_journal_bulk_entry
+- meta_material_requisition
+- meta_mediasoft_vat_intregration
+- meta_menu_authorized
+- meta_move_line_transaction
+- meta_nice_account_group_report
+- meta_nice_consumption_report
+- meta_nice_damaged_report
+- meta_product_cost_readonly
+- meta_product_custom_fields
+- meta_product_discount
+- meta_profit_and_loss_repport
+- meta_profit_loss_report
+- meta_purchase_acc_from_product_category
+- meta_purchase_invoice_report
+- meta_purchase_product_uom
+- meta_purchase_register_report
+- meta_purchase_reports
+- meta_purchase_reports_baywatch
+- meta_qweb_pdf_preview
+- meta_sales_report
+- meta_sku
+- meta_st_report
+- meta_stock_ledger_report
+- meta_stock_purchase_automation
+- meta_stock_summary_report
+- meta_transfer_stock_report
+- meta_transfer_validator
+- meta_view_changes_in_accounting_journal
+- muk_web_theme
+- oh_appraisal
+- oi_account_asset
+- oi_account_asset_history
+- oi_account_asset_register_report
+- oi_action_file
+- oi_excel_export
+- oi_org_chart
+- om_account_daily_reports
+- om_account_followup
+- om_dynamic_reports
+- om_recurring_payments
+- party_sale_register
+- pos_kitchen_screen_odoo
+- prt_report_attachment_preview
+- purchase_request
+- purchase_request_multi_line
+- responsive_web
+- stock_no_negative
+- to_backdate
+- to_stock_picking_backdate
+- warranty_management
+- web_chatter_position
+- web_responsive
+
+      tags:
+        - auto-generated

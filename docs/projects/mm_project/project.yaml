@@ -1,0 +1,65 @@
+      slug: mm_project
+      display_name: "Mm Project"
+      status: active
+      brief: >
+        Odoo custom addons for Mm Project. 37 modules in scan
+        (4 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Mm Project"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: mm_project/
+
+      team: []
+
+      modules:
+        - auto_daily_weekly_report
+- bi_project_template
+- document_management_system
+- documents_account
+- documents_approvals
+- documents_fsm
+- documents_hr
+- documents_hr_contract
+- documents_product
+- documents_project
+- documents_project_sale
+- documents_project_sign
+- documents_sign
+- documents_spreadsheet
+- eg_meeting_management
+- eg_project_category
+- gts_odoo_whatsapp_integration
+- helpdesk_mgmt
+- meta_chatter_bottom
+- meta_data_transfer
+- meta_helpdesk_portal
+- meta_helpdesk_project
+- muk_web_appsbar
+- muk_web_chatter
+- muk_web_colors
+- muk_web_dialog
+- muk_web_theme
+- northern_gauge_calibration
+- payment_sslcommerz
+- print_minutes_of_meeting
+- project_task_timer
+- project_tasks_from_templates
+- sign
+- spreadsheet_dashboard_documents
+- spreadsheet_edition
+- task_deadline_reminder
+- website_documents
+
+      tags:
+        - auto-generated

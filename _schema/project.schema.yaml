@@ -1,0 +1,68 @@
+# JSON Schema (YAML representation) for project.yaml
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Project
+type: object
+required:
+  - slug
+  - display_name
+  - client
+  - brief
+  - odoo_version
+  - git
+properties:
+  slug:
+    type: string
+    pattern: "^[a-z0-9_]+$"
+    description: Folder name and URL segment
+  display_name:
+    type: string
+  status:
+    enum: [active, maintenance, archived, pilot]
+  brief:
+    type: string
+    description: 2–5 sentence project overview for management
+  odoo_version:
+    type: string
+    examples: ["17.0", "18.0"]
+  hosting:
+    enum: [odoo_sh, on_premise, odoo_online, other]
+  client:
+    type: object
+    required: [name, industry]
+    properties:
+      name: { type: string }
+      legal_name: { type: string }
+      industry: { type: string }
+      country: { type: string }
+      website: { type: string, format: uri }
+      contacts:
+        type: array
+        items:
+          type: object
+          properties:
+            name: { type: string }
+            role: { type: string }
+            email: { type: string, format: email }
+  git:
+    type: object
+    required: [root_path]
+    properties:
+      remote_url: { type: string, format: uri }
+      default_branch: { type: string }
+      root_path:
+        type: string
+        description: Path to addons root inside repo
+  team:
+    type: array
+    items:
+      type: object
+      properties:
+        name: { type: string }
+        role: { type: string }
+  modules:
+    type: array
+    description: Technical names; detail lives in modules/*.md
+    items: { type: string }
+  tags:
+    type: array
+    items: { type: string }

@@ -1,0 +1,35 @@
+      slug: tetra_pvt_custom
+      display_name: "Tetra Pvt"
+      status: active
+      brief: >
+        Odoo custom addons for Tetra Pvt. 7 modules in scan
+        (6 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "19.0"
+      hosting: TBD
+
+      client:
+        name: "Tetra Pvt"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: tetra_pvt_custom/
+
+      team: []
+
+      modules:
+        - meta_barikoi
+- meta_barikoi_address_autocomplete
+- meta_barikoi_base
+- meta_barikoi_geolocalize
+- meta_barikoi_partner_map
+- meta_barikoi_website_map
+- purchase_request
+
+      tags:
+        - auto-generated

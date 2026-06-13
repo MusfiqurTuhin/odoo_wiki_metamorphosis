@@ -1,0 +1,160 @@
+      slug: premier1888_odoo17
+      display_name: "Premier 1888"
+      status: active
+      brief: >
+        Odoo custom addons for Premier 1888. 132 modules in scan
+        (112 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Premier 1888"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: premier1888_odoo17/
+
+      team: []
+
+      modules:
+        - account_loans
+- account_move_multi_cancel
+- account_payment_advance_mac5
+- ak_purchase_landed_cost
+- bi_print_journal_entries
+- custom_budget
+- deltatech_stock_negative
+- dev_helpdesk_extended
+- dev_product_approval_workflow
+- dev_purchase_down_payment
+- dev_shipping_document_extended
+- dev_summary_dashboard
+- eg_product_creation_restriction
+- eq_inventory_valuation_report
+- hide_menu_user
+- jb_many2many_clickable
+- mass_cancel_purchase_order
+- meta_1888_do_report
+- meta_1888_product_customization
+- meta_accessories_sale
+- meta_account_tds_vds_report
+- meta_advance_payment_approval
+- meta_advance_payment_view
+- meta_aml_asset_update
+- meta_auto_analytic_distribution
+- meta_auto_create_invoice
+- meta_auto_generate_lot
+- meta_auto_pr_accessories
+- meta_auto_sr_st_accessories
+- meta_bank_statement_reconcile_customization
+- meta_bill_invoice_reference
+- meta_chatter_bottom
+- meta_closing_stock_report
+- meta_container_loading
+- meta_cost_center_departmnet
+- meta_create_tender_and_cs_multy_co
+- meta_cs_report
+- meta_custom_access_rights
+- meta_custom_mail_template
+- meta_custom_search
+- meta_disable_form
+- meta_draft_assets_accounting
+- meta_dynamic_field_label
+- meta_dynamic_ribbon
+- meta_exchange_diff_ref
+- meta_extra_register_payment
+- meta_fg_gatepass
+- meta_fields_mod
+- meta_filter_customization
+- meta_finance_sales_xlsx_report
+- meta_finished_good_transfer
+- meta_gate_pass_system
+- meta_globally_disable_delet_duplicate
+- meta_import_commercial
+- meta_import_commercial_adv_payment
+- meta_import_commercial_report
+- meta_import_overhead_cost
+- meta_internal_fund_transfer
+- meta_inventory_movement_report
+- meta_inventory_reconcilation_report
+- meta_landed_cost
+- meta_lc_management_report
+- meta_lc_shipping_document
+- meta_line_stock_details
+- meta_loading_plan_gate_pass
+- meta_loan_management
+- meta_location_aging_days
+- meta_location_wise_access_control_sr_st
+- meta_location_wise_stock_report
+- meta_location_wise_validate_grn
+- meta_lot_secondary_uom_ratio
+- meta_mrp_production
+- meta_multi_pobill_by_grn
+- meta_packing_production_report
+- meta_partner_wise_accounting_report
+- meta_picking_type_change
+- meta_po_access_menu
+- meta_po_approval_matrix
+- meta_po_create_bill_customization
+- meta_po_seq
+- meta_po_stock_lot
+- meta_po_vat_tax
+- meta_pr_approval_matrix
+- meta_pr_bill_report
+- meta_pr_budget
+- meta_pr_department_wise_menu
+- meta_pr_line_restriction
+- meta_pr_pipeline_report
+- meta_pr_reject_note
+- meta_premier_product_customization
+- meta_premier_product_locator
+- meta_prl_customization
+- meta_procurement_report_xlsx
+- meta_product_categ_consumption_account
+- meta_product_create_disable
+- meta_product_creation_workflow
+- meta_production_report
+- meta_project_budget_report
+- meta_purchase_comparison_system
+- meta_purchase_order_report
+- meta_purchase_req_order_and_lc_manage
+- meta_purchase_requisition_template
+- meta_purchase_tolerance
+- meta_qc_reports
+- meta_qc_transfer
+- meta_qc_transfer_chalan
+- meta_quality_check
+- meta_quality_check_access
+- meta_sale_actual_shipment_report
+- meta_sale_commision_system
+- meta_sale_forecast
+- meta_sale_stock_packing_operation
+- meta_service_product_grn_valuation
+- meta_shipment_product_report
+- meta_so_export_report
+- meta_sr_report
+- meta_stock_wip_aging_report
+- meta_store_gate_pass_report
+- meta_store_requisition
+- meta_store_requisition_report
+- meta_unit_wise_loom
+- meta_update_contact
+- meta_user_access_control
+- meta_user_restriction
+- meta_vat_tax_entries
+- meta_vat_tax_payment
+- meta_vendor_bill_approval
+- meta_vendor_bill_report
+- meta_voucher_report
+- odoo_forge_recycle_bin
+- pr_sale_forecast
+- purchase_request
+
+      tags:
+        - auto-generated

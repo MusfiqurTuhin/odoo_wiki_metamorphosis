@@ -1,0 +1,62 @@
+      slug: verity_one
+      display_name: "Verity One"
+      status: active
+      brief: >
+        Odoo custom addons for Verity One. 34 modules in scan
+        (4 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "1.0"
+      hosting: TBD
+
+      client:
+        name: "Verity One"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: verity_one/
+
+      team: []
+
+      modules:
+        - acs_certification
+- affiliate_management
+- app_product_lot
+- aspl_twilio_sms_ee
+- base_capture_photo
+- bsi_google_map
+- create_user_contact_customer
+- crypto_base
+- gt_multi_comp_outgoing_mail_server
+- membership_card_odoo
+- meta_portal_product_creation
+- meta_qr_scan_reward
+- meta_website_visitor_tracker
+- meta_widget_qr_cam_website
+- miusa_uuid_core
+- mobile_code_scanner_widget
+- nc_wallet
+- odoo_add_contact_portal
+- odoo_product_tags
+- oyster_environmental_calculator
+- payment_ethereum
+- rt_widget_qr_cam_account
+- rt_widget_qr_cam_all
+- rt_widget_qr_cam_mrp
+- rt_widget_qr_cam_product
+- rt_widget_qr_cam_purchase
+- rt_widget_qr_cam_sale
+- sh_product_qrcode_generator
+- sttl_product_description
+- verity_farm_visit_linked
+- verity_fuel_report
+- verity_one
+- wk_wizard_messages
+- xf_dashboard
+
+      tags:
+        - auto-generated

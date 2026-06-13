@@ -1,0 +1,40 @@
+      slug: colorjet
+      display_name: "Colorjet"
+      status: active
+      brief: >
+        Odoo custom addons for Colorjet. 12 modules in scan
+        (7 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Colorjet"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: colorjet/
+
+      team: []
+
+      modules:
+        - advance_access_management
+- advanced_web_domain_widget
+- hide_menu_user
+- meta_helpdesk_hold
+- meta_product_forecast_kanban
+- meta_product_repair_notes
+- meta_reports
+- meta_sms_integration_novocom
+- meta_task_repair_info
+- meta_validation_sales_uom
+- report_attachment_preview
+- simplify_access_management
+
+      tags:
+        - auto-generated

@@ -1,0 +1,42 @@
+      slug: odoo17_custom
+      display_name: "Odoo17 Custom"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo17 Custom. 14 modules in scan
+        (7 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo17 Custom"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo17_custom/
+
+      team: []
+
+      modules:
+        - bi_product_secondary_uom
+- custom_receipts_for_pos
+- d_auth_oauth_advance
+- d_auth_oauth_tiktok
+- inventory_analysis_spa
+- meta_exchange_diff_ref
+- meta_medicine_generic_name
+- meta_pastuer_multicompany_so
+- meta_product_fields
+- meta_sms_integration
+- meta_steadfast_api
+- meta_web_login_employees
+- prt_partner_tweaks_access
+- web_progress
+
+      tags:
+        - auto-generated

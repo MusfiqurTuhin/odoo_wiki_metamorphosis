@@ -1,0 +1,50 @@
+      slug: pathak-samabesh
+      display_name: "Pathak Samabesh"
+      status: active
+      brief: >
+        Odoo custom addons for Pathak Samabesh. 22 modules in scan
+        (14 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Pathak Samabesh"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: pathak-samabesh/
+
+      team: []
+
+      modules:
+        - author_info
+- droggol_theme_common
+- iwesabe_import_product_images
+- meta_adarsha_project
+- meta_book_info
+- meta_courier
+- meta_courier_api_info
+- meta_default_country
+- meta_default_variant_select
+- meta_feature_author
+- meta_pathak_reports
+- meta_payment_sslcommerz
+- meta_payment_status
+- meta_pre_order_product_web_sale
+- meta_quick_read
+- meta_single_page_checkout_system
+- meta_sms
+- new_fields_addition
+- otp_auth
+- product_import
+- theme_prime
+- website_sale_seo
+
+      tags:
+        - auto-generated

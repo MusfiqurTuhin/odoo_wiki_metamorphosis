@@ -1,0 +1,30 @@
+      slug: cwpl_custom_18ee
+      display_name: "Cwpl Custom 18Ee"
+      status: active
+      brief: >
+        Odoo custom addons for Cwpl Custom 18Ee. 2 modules in scan
+        (1 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Cwpl Custom 18Ee"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: cwpl_custom_18ee/
+
+      team: []
+
+      modules:
+        - meta_approval_matrix_cross_world
+- purchase_request
+
+      tags:
+        - auto-generated

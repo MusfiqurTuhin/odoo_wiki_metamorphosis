@@ -1,0 +1,39 @@
+      slug: tree_living_custom
+      display_name: "Tree Living"
+      status: active
+      brief: >
+        Odoo custom addons for Tree Living. 11 modules in scan
+        (8 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "19.0"
+      hosting: TBD
+
+      client:
+        name: "Tree Living"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: tree_living_custom/
+
+      team: []
+
+      modules:
+        - meta_complete_look
+- meta_custom_marque
+- meta_custom_productpage
+- meta_custom_tree_accordion
+- meta_custom_tree_homepage
+- meta_poweredby
+- meta_single_page_checkout_system
+- meta_steadfast_api
+- new_fields_addition
+- otp_auth
+- product_import
+
+      tags:
+        - auto-generated

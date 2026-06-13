@@ -1,0 +1,32 @@
+      slug: DISABLED_MODULES
+      display_name: "Disabled Modules (Archive)"
+      status: active
+      brief: >
+        Odoo custom addons for Disabled Modules (Archive). 4 modules in scan
+        (0 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "19.0"
+      hosting: TBD
+
+      client:
+        name: "Disabled Modules (Archive)"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: DISABLED_MODULES/
+
+      team: []
+
+      modules:
+        - base_report_to_printer.disabled
+- base_report_to_printer_mail.disabled
+- delivery_carrier_print_base.disabled
+- printer_zpl2.disabled
+
+      tags:
+        - auto-generated

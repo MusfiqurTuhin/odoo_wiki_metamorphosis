@@ -1,0 +1,75 @@
+      slug: gronthik_publication
+      display_name: "Gronthik Publication"
+      status: active
+      brief: >
+        Odoo custom addons for Gronthik Publication. 47 modules in scan
+        (25 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Gronthik Publication"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: gronthik_publication/
+
+      team: []
+
+      modules:
+        - author_info
+- base_import_helper
+- custom_receipts_for_pos
+- droggol_theme_common
+- facebook_shop
+- meta_animated_searchBar
+- meta_book_info
+- meta_book_list_web_page
+- meta_chatter_bottom
+- meta_default_country
+- meta_feature_author
+- meta_granthik_project
+- meta_hide_price_cart
+- meta_invoice_report
+- meta_minimum_stock_qty
+- meta_open_inventory_product
+- meta_payment_bkash
+- meta_payment_shurjopay
+- meta_pre_order_product_web_sale
+- meta_publisher_info_on_sale_order
+- meta_quick_read
+- meta_qweb_pdf_preview
+- meta_sale_automation
+- meta_sale_order_register_payment
+- meta_sale_partner_phone
+- meta_same_category_books
+- meta_singlepage_checkout
+- meta_sms
+- meta_steadfast_api
+- meta_web_blog_post_field_editable
+- new_fields_addition
+- otp_auth
+- product_data_feed
+- product_data_feed_brand
+- product_data_feed_number
+- product_facebook_category
+- product_google_category
+- sr_dynamic_website_product_bundle
+- theme_prime
+- website_cookies_consent
+- website_cookies_consent_google
+- website_facebook_pixel
+- website_google_analytics_4
+- website_hide_variants
+- website_sale_google_analytics_4
+- website_sale_seo
+- whatsapp_redirect
+
+      tags:
+        - auto-generated

@@ -1,0 +1,63 @@
+      ---
+      technical_name: sale_partner_incoterm
+      display_name: "Default sales incoterm per partner"
+      project_slug: precisiontex-v19-custom
+      curated: false
+      reusable: false
+      marketing_summary: "Set the customer preferred incoterm on each sales order"
+      odoo_version: "19.0"
+      category: TBD
+      git:
+        repo_url: ""
+        path: precisiontex-v19-custom/sale_partner_incoterm
+        branch: main
+      contributors:
+        - name: "Opener B.V."
+  role: author
+- name: "Odoo Community Association (OCA)"
+  role: author
+      depends: []
+      used_in:
+        - precisiontex-v19-custom
+      versions:
+        - version: "19.0.1.2.0"
+          date: "2026-06-13"
+          odoo_version: "19.0"
+          whats_new: "Seeded from manifest scan. Update with release notes."
+      ---
+
+        # Default sales incoterm per partner
+
+        `sale_partner_incoterm`
+
+        ## Module brief
+
+        Set the customer preferred incoterm on each sales order
+
+        ## Who worked on this module
+
+        | Name | Role |
+        |------|------|
+        | Opener B.V. | author |
+| Odoo Community Association (OCA) | author |
+
+        _Source: `__manifest__.py` author field. Confirm and extend via git history._
+
+        ## Technical details
+
+        | Field | Value |
+        |-------|-------|
+        | Technical name | `sale_partner_incoterm` |
+        | Current version | `19.0.1.2.0` |
+        | Project | [Precisiontex](../index.md) |
+        | Git path | `precisiontex-v19-custom/sale_partner_incoterm` |
+        | Manifest author | Opener B.V.,Odoo Community Association (OCA) |
+
+        ## Version history
+
+        | Version | Date | What's new |
+        |---------|------|------------|
+        | 19.0.1.2.0 | 2026-06-13 | Seeded from scan — add release notes |
+
+        !!! note "Needs review"
+            This page was auto-generated. Set `curated: true` in front matter after manual review.

@@ -1,0 +1,129 @@
+      slug: baatighar_17_ee
+      display_name: "Baatighar"
+      status: active
+      brief: >
+        Odoo custom addons for Baatighar. 101 modules in scan
+        (67 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "Baatighar"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: baatighar_17_ee/
+
+      team: []
+
+      modules:
+        - author_info
+- base_import_helper
+- bi_pos_stock
+- droggol_theme_common
+- facebook_shop
+- meta_add_field_pivot_purchse_report
+- meta_add_field_pivot_report
+- meta_add_phone_pos_pivot
+- meta_always_open_order_summary_accordion
+- meta_author_fields
+- meta_baatighar_project
+- meta_backend_author_search_filter
+- meta_banner_image
+- meta_barcode_assign
+- meta_bd_phone_validation
+- meta_book_info
+- meta_category_books
+- meta_coupon_shipping_check
+- meta_coupon_use_control
+- meta_courier_selection
+- meta_custom_barcode_print
+- meta_data_transfer
+- meta_default_country
+- meta_disable_right_click
+- meta_ecom_cat_sale
+- meta_ecommerce_category_slider_snippet
+- meta_ecourier_api
+- meta_edit_product_page
+- meta_group_by_inventory
+- meta_inventory_product_move_extra_column
+- meta_most_sold_week
+- meta_ol_qty
+- meta_paperfly_order
+- meta_partner_product_history
+- meta_payment_bkash
+- meta_payment_date_in_sale
+- meta_phone_portal_access
+- meta_portal_design
+- meta_pos_custom_product_info
+- meta_pos_customization
+- meta_pos_product_stock_validation
+- meta_pos_receipt_custom
+- meta_pos_report
+- meta_pre_order_product_web_sale
+- meta_pricelist_in_contact
+- meta_product_movement_report
+- meta_publisher_portal
+- meta_purchase_request_report
+- meta_quick_read
+- meta_reports_changes
+- meta_request_button
+- meta_sale_confirmation_mail
+- meta_sale_coupon_extend
+- meta_sale_custom
+- meta_sale_product_field_customization
+- meta_sales_details_report
+- meta_same_category_books
+- meta_same_publisher_books
+- meta_searchbar
+- meta_singlepage_checkout
+- meta_sms
+- meta_unique_phone_mobile_mail
+- meta_update_pos_order_stock
+- meta_warehouse_status
+- meta_warehouse_status_old
+- meta_web_address_phone_length
+- meta_web_portal_changes
+- meta_web_product_tag
+- meta_web_search_changes
+- meta_weekly_author
+- meta_weekly_publisher
+- meta_zero_stock_report_new
+- new_fields_addition
+- odoo_website_giftwrap
+- otp_auth
+- partner_deduplicate_acl
+- partner_deduplicate_by_ref
+- payment_sslcommerz
+- pos_sale_coupon_by_product_categ
+- pos_sale_coupons
+- pos_screen_changes
+- product_barcode
+- product_data_feed
+- product_data_feed_brand
+- product_data_feed_number
+- product_facebook_category
+- product_google_category
+- product_quantity_show_by_stock
+- report_xlsx
+- sale_coupon_only_new_customer
+- same_author_books
+- theme_prime
+- upl_book
+- website_cookies_consent
+- website_cookies_consent_google
+- website_facebook_pixel
+- website_google_analytics_4
+- website_header_integrate
+- website_sale_google_analytics_4
+- website_sale_seo
+- website_sequence_desc
+
+      tags:
+        - auto-generated

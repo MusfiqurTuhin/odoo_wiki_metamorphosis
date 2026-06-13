@@ -1,0 +1,81 @@
+      slug: odoo16-custom-addons
+      display_name: "Odoo16 Custom Addons"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo16 Custom Addons. 53 modules in scan
+        (39 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "16.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo16 Custom Addons"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo16-custom-addons/
+
+      team: []
+
+      modules:
+        - abs_so_minimum_quantity
+- ksc_auto_invoice
+- mass_cancel_journal_entries
+- meta_advance_payemnt
+- meta_amount2word
+- meta_area_addition
+- meta_batch_order
+- meta_checkout
+- meta_contacts_unavailable
+- meta_contract_number_generator
+- meta_courier
+- meta_courier_api_info
+- meta_courier_pathao_integration
+- meta_customer_fields
+- meta_customer_portal
+- meta_delivery_portal
+- meta_easy_product_upload_pricelist
+- meta_ecommerce_mobile_app
+- meta_event_program_scheduler
+- meta_marketplace_stock_sync
+- meta_mrp_operation
+- meta_otp
+- meta_payment_amarpay
+- meta_payment_bkash
+- meta_payment_refund_reason
+- meta_product_brand
+- meta_product_default_code_unique
+- meta_product_new_tab
+- meta_product_stock_available
+- meta_sale_marketplace_list
+- meta_sale_order_picking_complete
+- meta_sale_order_register_payment
+- meta_sale_order_status
+- meta_sale_print_invoices
+- meta_sdpl_modifications
+- meta_sms
+- meta_sms_mod
+- meta_track_order
+- meta_tv_contract
+- meta_weburl_redirect
+- meta_whatsapp_floating_button
+- meta_whatsapp_live_free
+- new_fields_addition
+- odoo_woo_connect
+- otp_auth
+- payment_sslcommerz
+- prt_report_attachment_preview
+- rest_api
+- sr_dynamic_website_product_bundle
+- theme_common
+- website_customer_order_comment
+- website_sale_default_country
+- website_seo_url
+
+      tags:
+        - auto-generated

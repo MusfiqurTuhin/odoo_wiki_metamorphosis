@@ -1,0 +1,38 @@
+      slug: odoo18_custom
+      display_name: "Odoo18 Custom"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo18 Custom. 10 modules in scan
+        (4 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo18 Custom"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo18_custom/
+
+      team: []
+
+      modules:
+        - account_move_multi_cancel
+- droggol_theme_common
+- fleet_requisition
+- meta_chatter_bottom18
+- meta_custom_partner_unique_code
+- meta_fleet_customization
+- meta_payment_sslcommerz
+- theme_prime
+- web_progress
+- website_visitor_tracker
+
+      tags:
+        - auto-generated

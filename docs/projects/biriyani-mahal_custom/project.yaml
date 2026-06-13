@@ -1,0 +1,32 @@
+      slug: biriyani-mahal_custom
+      display_name: "Biriyani Mahal"
+      status: active
+      brief: >
+        Odoo custom addons for Biriyani Mahal. 4 modules in scan
+        (3 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "1.0"
+      hosting: TBD
+
+      client:
+        name: "Biriyani Mahal"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: biriyani-mahal_custom/
+
+      team: []
+
+      modules:
+        - meta_pos_kitchen_browser_print
+- meta_pos_receipt
+- meta_unique_identifier
+- service_charges_pos
+
+      tags:
+        - auto-generated

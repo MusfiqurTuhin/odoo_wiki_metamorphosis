@@ -1,0 +1,58 @@
+      slug: odoo18_theme
+      display_name: "Odoo18 Theme"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo18 Theme. 30 modules in scan
+        (0 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "2.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo18 Theme"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo18_theme/
+
+      team: []
+
+      modules:
+        - test_themes
+- theme_anelusia
+- theme_artists
+- theme_avantgarde
+- theme_aviato
+- theme_beauty
+- theme_bewise
+- theme_bistro
+- theme_bookstore
+- theme_buzzy
+- theme_clean
+- theme_cobalt
+- theme_common
+- theme_enark
+- theme_graphene
+- theme_kea
+- theme_kiddo
+- theme_loftspace
+- theme_monglia
+- theme_nano
+- theme_notes
+- theme_odoo_experts
+- theme_orchid
+- theme_paptic
+- theme_real_estate
+- theme_test_custo
+- theme_treehouse
+- theme_vehicle
+- theme_yes
+- theme_zap
+
+      tags:
+        - auto-generated

@@ -1,0 +1,30 @@
+      slug: odoo15_custom
+      display_name: "Odoo15 Custom"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo15 Custom. 2 modules in scan
+        (0 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "1.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo15 Custom"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo15_custom/
+
+      team: []
+
+      modules:
+        - hr_att_type_device
+- pdcl_hr_device_config
+
+      tags:
+        - auto-generated

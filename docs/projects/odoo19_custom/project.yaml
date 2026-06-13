@@ -1,0 +1,33 @@
+      slug: odoo19_custom
+      display_name: "Odoo19 Custom"
+      status: active
+      brief: >
+        Odoo custom addons for Odoo19 Custom. 5 modules in scan
+        (0 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "19.0"
+      hosting: TBD
+
+      client:
+        name: "Odoo19 Custom"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: odoo19_custom/
+
+      team: []
+
+      modules:
+        - droggol_theme_common
+- mcp_server
+- mm_ai_models
+- product_free_qty
+- theme_prime
+
+      tags:
+        - auto-generated

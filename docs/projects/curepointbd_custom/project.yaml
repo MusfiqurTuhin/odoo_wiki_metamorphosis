@@ -1,0 +1,56 @@
+      slug: curepointbd_custom
+      display_name: "Curepoint BD"
+      status: active
+      brief: >
+        Odoo custom addons for Curepoint BD. 28 modules in scan
+        (11 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Curepoint BD"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: curepointbd_custom/
+
+      team: []
+
+      modules:
+        - bi_order_line_with_sequence_number
+- bi_pos_multi_uom
+- bi_pos_restrict_zero_qty
+- bi_pos_stock
+- bi_print_journal_entries
+- bi_product_secondary_uom
+- custom_receipts_for_pos
+- generic_tag
+- generic_tag_product
+- meta_chatter_bottom18
+- meta_medicine_generic_name
+- meta_multiple_invoice_in_one_report
+- meta_pos_auto_lot_selection
+- meta_pos_prescription
+- meta_pos_receipt_custom
+- meta_pos_stock_quantity
+- meta_prod_mrp
+- meta_product_fields
+- meta_purchase_order_discount_distribution
+- meta_purchase_override
+- pos_analytic_tag
+- pos_keyboard_shortcut
+- pos_zero_quantity_restrict
+- product_multi_uom_pos
+- product_multiple_barcodes
+- sh_pos_keyboard_shortcut
+- sh_pos_order_discount
+- sr_product_multiple_barcode
+
+      tags:
+        - auto-generated

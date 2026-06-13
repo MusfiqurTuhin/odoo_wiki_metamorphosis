@@ -1,0 +1,67 @@
+      slug: organik-chicken
+      display_name: "Organik Chicken"
+      status: active
+      brief: >
+        Odoo custom addons for Organik Chicken. 39 modules in scan
+        (29 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "16.0"
+      hosting: TBD
+
+      client:
+        name: "Organik Chicken"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: organik-chicken/
+
+      team: []
+
+      modules:
+        - abs_so_minimum_quantity
+- account_move_multi_cancel
+- izi_dashboard
+- izi_data
+- journal_voucher_report_print
+- meta_area_addition
+- meta_batch_order
+- meta_checkout
+- meta_contact_ref
+- meta_contact_sale_filter
+- meta_contacts_unavailable
+- meta_custom_barcode_print
+- meta_customer_fields
+- meta_customer_history
+- meta_customer_portal
+- meta_delivery_portal
+- meta_inv_pay_list
+- meta_latest_activity
+- meta_lot_details
+- meta_mrp_operation
+- meta_organik_invoice
+- meta_otp
+- meta_payment_amarpay
+- meta_payment_bkash
+- meta_payment_thecitybank
+- meta_phone_mandatory
+- meta_phone_portal_access
+- meta_portal_ui
+- meta_product_load_report
+- meta_signup_validation
+- meta_sms_mod
+- meta_so_date_wise_report
+- meta_track_order
+- meta_website_product_fields
+- otp_auth
+- purchase_request
+- query_deluxe
+- website_customer_order_comment
+- website_sale_default_country
+
+      tags:
+        - auto-generated

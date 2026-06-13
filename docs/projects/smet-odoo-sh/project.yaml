@@ -1,0 +1,45 @@
+      slug: smet-odoo-sh
+      display_name: "SMET"
+      status: active
+      brief: >
+        Odoo custom addons for SMET. 17 modules in scan
+        (10 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "17.0"
+      hosting: TBD
+
+      client:
+        name: "SMET"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: smet-odoo-sh/
+
+      team: []
+
+      modules:
+        - base_product_merge
+- bi_print_journal_entries
+- custom_payment_charges
+- meta_accounting_modification
+- meta_payment_receipt_report
+- meta_sales_report
+- meta_smet_journal_entries_report
+- meta_smet_picking_fields
+- meta_smet_receipt_and_payable_report
+- meta_smet_report_changes
+- meta_stock_summary_report
+- meta_sundry_creditor_report
+- meta_sundry_debtors_report
+- om_account_daily_reports
+- om_account_daily_reports_new
+- purchase_request
+- report_attachment_preview
+
+      tags:
+        - auto-generated

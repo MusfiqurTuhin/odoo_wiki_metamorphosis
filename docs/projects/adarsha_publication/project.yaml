@@ -1,0 +1,80 @@
+      slug: adarsha_publication
+      display_name: "Adarsha Publication"
+      status: active
+      brief: >
+        Odoo custom addons for Adarsha Publication. 52 modules in scan
+        (31 meta_*). Update this brief with project scope and delivery notes.
+      odoo_version: "18.0"
+      hosting: TBD
+
+      client:
+        name: "Adarsha Publication"
+        legal_name: ""
+        industry: TBD
+        country: Bangladesh
+        website: ""
+        contacts: []
+
+      git:
+        remote_url: ""
+        default_branch: main
+        root_path: adarsha_publication/
+
+      team: []
+
+      modules:
+        - author_info
+- base_import_helper
+- bi_pos_show_discounted_price
+- custom_receipts_for_pos
+- droggol_theme_common
+- facebook_shop
+- meta_adarsha_project
+- meta_author_royalty
+- meta_author_royalty_report
+- meta_backend_button
+- meta_book_info
+- meta_boolean_replenishment
+- meta_chatter_bottom18
+- meta_combo_minimum_selection
+- meta_coupon_use_control
+- meta_default_country
+- meta_default_variant_select
+- meta_feature_author
+- meta_inventory_adjustment
+- meta_invoice_sticker
+- meta_line_stock_details
+- meta_location_sale
+- meta_manufacturing_to_lc
+- meta_mystery_box
+- meta_payment_sslcommerz
+- meta_payment_status
+- meta_pos_order_salesperson
+- meta_pos_prod_variant
+- meta_pos_product_exclude
+- meta_pos_receipt_custom
+- meta_pos_stock_quantity
+- meta_quick_read
+- meta_reports
+- meta_sale_automation
+- meta_salesperson
+- meta_sms
+- meta_steadfast_api
+- new_fields_addition
+- otp_auth
+- pos_zero_quantity_restrict
+- product_data_feed
+- product_data_feed_brand
+- product_data_feed_number
+- product_facebook_category
+- product_google_category
+- report_attachment_preview
+- sh_pos_keyboard_shortcut
+- theme_prime
+- website_cookies_consent
+- website_facebook_pixel
+- website_hide_variants
+- website_sale_seo
+
+      tags:
+        - auto-generated
