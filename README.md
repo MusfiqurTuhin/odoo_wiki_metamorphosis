@@ -33,6 +33,12 @@ python scripts/generate_wiki.py
 
 Pages with `curated: true` in front matter are **not** overwritten.
 
-## Manual gaps
+## Deploy
 
-See [REQUIREMENTS.md](REQUIREMENTS.md) — git URLs, client mapping, version narratives, deploy target.
+Repo: https://github.com/metamorphosisbd/odoo_wiki_metamorphosis
+
+CI builds on every push. **GitHub Pages** requires org plan support — see [DEPLOY.md](DEPLOY.md).
+
+```bash
+mkdocs build   # or download mkdocs-site artifact from Actions
+```

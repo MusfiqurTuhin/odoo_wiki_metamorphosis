@@ -1,0 +1,30 @@
+# Optional — enable after GitHub Pages is available on the org plan.
+# Repo → Settings → Pages → GitHub Actions, then uncomment workflow or rename to wiki.yml.
+
+# name: Deploy wiki to GitHub Pages
+#
+# on:
+#   workflow_run:
+#     workflows: [Build wiki]
+#     types: [completed]
+#     branches: [main]
+#
+# permissions:
+#   pages: write
+#   id-token: write
+#
+# jobs:
+#   deploy:
+#     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+#     runs-on: ubuntu-latest
+#     environment:
+#       name: github-pages
+#       url: ${{ steps.deployment.outputs.page_url }}
+#     steps:
+#       - uses: actions/download-artifact@v4
+#         with:
+#           name: mkdocs-site
+#           github-token: ${{ secrets.GITHUB_TOKEN }}
+#           run-id: ${{ github.event.workflow_run.id }}
+#       - uses: actions/deploy-pages@v4
+#         id: deployment
